@@ -51,7 +51,7 @@
 .block {
     width: 50%;
     margin-bottom: 40px;
-    padding-right: 100px;
+    padding-top: 0px;
 }
 
 .blockIcon{
@@ -85,12 +85,32 @@
         width: 100%;
         margin: 20px;
     }
-    .StoreContainerLeft{
-        flex-basis: 50%;
-        margin-left: 80px;
+    .row {
+        flex-direction: column;
     }
-    .StoreContainerRight{
-        flex-basis: 50%;
-        margin-left: 80px;
+}
+
+
+@media only screen and (max-width:320px){
+    .StoreContainerLeft h3 {
+        font-size: 2rem;
+    }
+    .blockIcon{
+        padding-bottom: 0;
+    }
+    .blockTitle p{
+        padding-bottom: 0;
+    }
+    .blockContent{
+        width: 100%;
+    }
+    .block {
+        padding-right: 0;
+    }
+    .blockIcon svg {
+        color: #1b85ea;
+        width: 2.5rem;
+        height: 2.5rem;
+    
     }
 }

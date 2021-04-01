@@ -88,4 +88,7 @@
     .aboutContent {
         flex-direction: column;
     }
+    .aboutContent {
+        margin: 70px -16px 0;
+    }
 }

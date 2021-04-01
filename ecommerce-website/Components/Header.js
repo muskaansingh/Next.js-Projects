@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
         {/* <Head>
-             <HeaderToggle/>   
+             <HeaderToggle/>  
         </Head> */}
             <header>
                 <nav class={HeaderStyles.nav}>
