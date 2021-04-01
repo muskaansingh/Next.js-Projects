@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Header from '../Components/Header';
 import Banner from '../Components/Banner';
 import About from '../Components/About';
+import DiscountBanner from '../Components/DiscountBanner';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header/>
       <Banner/>
       <About/>
+      <DiscountBanner/>
     </div>
   )
 }
