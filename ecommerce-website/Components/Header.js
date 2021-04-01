@@ -1,5 +1,6 @@
 import HeaderStyles from '../styles/Header.module.css';
 import Head from 'next/head';
+import Link from 'next/link';
 // import HeaderToggle from './HeaderToggle';
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
                         <button class={HeaderStyles.menuBtn}><img src="./images/Hamburger_icon.svg.png"/></button>
                         <div class={HeaderStyles.navRight}>
                             <ul>
-                                <li><a href="/">HOME</a></li>
+                                <li><Link href="/home">HOME</Link></li>
                                 <li class={HeaderStyles.dropdownbox}>
                                     <a href="/">LIVE DEMO
                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYWdTMa4UiHczxTQilFmCZ1eH92_YNjR23Q&usqp=CAU"/>
