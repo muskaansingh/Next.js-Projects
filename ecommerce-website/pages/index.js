@@ -5,6 +5,7 @@ import Banner from '../Components/Banner';
 import About from '../Components/About';
 import DiscountBanner from '../Components/DiscountBanner';
 import StoreFeatures from '../Components/StoreFeatures';
+import Products from '../Components/Products';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <About/>
       <DiscountBanner/>
       <StoreFeatures/>
+      <Products/>
     </div>
   )
 }
